@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@ec3a7ce113134d7a93b817d10a8272cb61118579
+    - uses: actions/checkout@24cb9080177205b6e8c946b17badbe402adc938f
 
     - name: Fetch configlet
       uses: exercism/github-actions/configlet-ci@main
